@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    border: solid 2px black;
+    position: relative;
+    top: 15px;
+
+}
+
+h2,h3{
+    margin: 0;
+    text-align: center;
+
+}
+
+.contener{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.card{
+   box-shadow: 0 4px 8px black;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    ;
+}
+
+.card-top {
+    background-color: rgb(255, 209, 2);
+    text-align: center;
+    height: 25%;
+    
+    
+}
+
+.card-info{
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0 1em 0 1em;
+    
+    
+
+}
+.button{
+    text-decoration: none;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color:darkred;
+    padding:  1em 1em 1em 1em;
+    
+    
+    
+    
+    
+}
+
+
+
+
+.name{
+    color:rgb(255, 209, 2);
+    margin-top: 2rem;
+}
+
+
+.job{
+    text-align: left;
+    color:rgb(255, 209, 2);;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 10px;
+
+}
+
+.developer{
+    text-align: left;
+    color:rgb(255, 209, 2);;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+
+.facebook{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
+.yout{
+    color: white;
+    background-color: red;
+}
+
+.lin{
+    color: white;
+    background-color: black;
+    
+}
+
